@@ -26,15 +26,15 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  name_array = []
-  index = 0 
-  while index < source.size do 
-    name_array.push(source[index][:name])
-    index += 1
+  director_index = 0
+  director_list = Array.new
+
+  while director_index < source.size do
+    director_list.push(source[director_index][:name])
+    director_index += 1
   end
-  name_array
+  director_list
 end
-direct_name
 
 def total_gross(source)
   # Write this implementation
