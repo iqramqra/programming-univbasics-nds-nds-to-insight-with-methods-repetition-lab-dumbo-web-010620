@@ -26,9 +26,9 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  direct_name =[]
-  index =0
-  while index<source.size do
+  direct_name = []
+  index = 0
+  while index < source.length do
     direct_name.push(source[index][:name])
     index +=1
 end
